@@ -20,13 +20,9 @@ class UserAuth
         }
         foreach ($person as $user) {
             if ($user['UserName'] === $uname) {
-                    session_regenerate_id(true);
-                    $_SESSION['inloggad'] = true;    // Användaren har anget rätt uppgifter.
-                    $_SESSION['user'] = $user['UserName'];
-                    return true;
-                } else {
-                    return false;
-                }
+                return true;
             }
         }
+        return false;
     }
+}
