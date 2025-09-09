@@ -6,4 +6,5 @@
         <li><a href="index.php?page=kontakt">Kontakt</a></li>
         <li><a href="index.php?page=login">Logga in</a></li>
         <li><a href="index.php?page=registration">Registrera</a></li>
+        <li><a href="index.php?page=userCheck">User Check</a></li>
     </ul>

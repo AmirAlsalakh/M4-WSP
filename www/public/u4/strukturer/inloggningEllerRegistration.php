@@ -56,6 +56,9 @@
                     case "registration":
                         include("inc/registration.php");
                         break;
+                    case "userCheck":
+                        include("inc/userCheck.php");
+                        break;
                     default:
                         include('pages/hem.php');
                 }
