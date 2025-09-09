@@ -61,6 +61,9 @@ if (!isset($_SESSION['inloggad'])) {
 					case "klotterplank":
 						include("inc/klotterplank.php");
 						break;
+					case "userCheck":
+						include("inc/userCheck.php");
+						break;
 					default:
 						include('pages/hem2.php');
 				}
